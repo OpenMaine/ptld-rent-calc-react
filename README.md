@@ -44,6 +44,11 @@ If a feature-branch answers an open issue/task, the branch should be named using
 
 Each pull request requires at least one review by a member who does not have a commit on the PR before merging.
 
+`Linting and Formatting`
+
+This project uses [ESLint](https://eslint.org/docs/user-guide/getting-started) and [Prettier](https://prettier.io/docs/en/install.html) to aid continuity, as well as [Husky](https://typicode.github.io/husky/#/) pre-commit hooks which run the linting and formatting automatically before each local commit. See the links above for more information and guides for installation.
+
+
 ## Getting Started
 
 `Running the Project Locally`
@@ -58,7 +63,7 @@ To run the project locally, fork or clone this repo here on GitHub, or locally u
 
 This project is set up as a monorepo and uses Yarn to manage separate dependencies in the client and server directories.
 
-Before you start using Yarn, you'll first need to install it on your system. There are many different ways to install Yarn, but a single one is recommended and cross-platform.  For more details see  [the guide to installing Yarn](/docs/Installing_Yarn.md).
+Before you start using Yarn, you'll first need to install it on your system. For more details about installing Yarn see  the [guide to installing Yarn](/docs/Installing_Yarn.md).
 
 `Not Sure if Yarn is Already Installed?`
 
@@ -66,9 +71,10 @@ You can check that Yarn is installed by running the following command
 
     yarn --version
 
+
 `Install Project Dependencies`
 
-Inside the root directory (PTLD-RENT-CALC-REACT), install all project dependencies and create a local yarn.lock file by running the yarn install command:
+Inside the **root** directory (PTLD-RENT-CALC-REACT), install all project dependencies and create a local yarn.lock file by running the yarn install command:
 
     yarn install
 
@@ -104,7 +110,9 @@ Open [http://localhost:5000](http://localhost:5000) to view it in the browser.~~
 *From the template, should be updated once testing has been developed: What does someone need to do to test their work? Have you included a specific testing framework or guideline (hint: you should)? Any information about testing should be added here.*
 
 # Sources and Links
-If referencing any third party service, code, etc, cite it here.
+- [npm Lint-Staged](https://www.npmjs.com/package/lint-staged)
+
+- [esLint-config-prettier](https://github.com/prettier/eslint-config-prettier#installation)
 
 ## Contributors ✨
 
