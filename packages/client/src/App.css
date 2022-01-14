@@ -1,3 +1,20 @@
 .App {
   text-align: center;
 }
+
+header {
+  background-attachment: scroll, scroll, scroll, fixed;
+  background-image: url('./assets/OpMEskyline.png');
+  background-position: bottom left, bottom right, top left, top center;
+  background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3% 0px 2% 0px;
+}
+
+.icon {
+  font-size: 3rem;
+  color: gray;
+}
