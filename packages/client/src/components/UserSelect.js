@@ -10,14 +10,18 @@ const UserSelect = ({ selectedUser, setSelectedUser }) => {
   return (
     <div className="col">
       <label htmlFor="user">I am a:</label>
-      <label className="d-block">
-        <input type="radio" name="user" value="Tenant" checked={selectedUser=="Tenant"} onChange={handleChange}/>
-        <span>Tenant</span>
-      </label>
-      <label>
-        <input type="radio" name="user" value="Landlord" checked={selectedUser=="Landlord"} onChange={handleChange}/>
-        <span>Landlord</span>
-      </label>
+      <div className="form-check">
+        <input className="form-check-input" type="radio" name="user" value="Tenant" id="tenant" checked={selectedUser==="Tenant"} onChange={handleChange} />
+        <label className="form-check-label" htmlFor="tenant">
+          Tenant
+        </label>
+      </div>
+      <div className="form-check">
+        <input className="form-check-input" type="radio" name="user" value="Landlord" id="landlord" checked={selectedUser==="Landlord"} onChange={handleChange} />
+        <label className="form-check-label" htmlFor="landlord">
+          Landlord
+        </label>
+      </div>
     </div>
   )
 };
