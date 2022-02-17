@@ -1,5 +1,14 @@
-# Portland Maine Rent Calculator - React Build
+# Hey There, Redirect!
 
+#### This repo is going to combine with the original project, new contributions can branch and work off of [trunk/re-build](https://github.com/OpenMaine/rent-calculator/tree/trunk/re-build) :)
+
+.
+.
+.
+.
+
+
+## Documentation
 <!-- TOC -->
 
 - [Documentation](#documentation)
@@ -13,8 +22,6 @@
     - [Contributors ✨](#contributors-)
 
 <!-- /TOC -->
-
-# Documentation
 *Needs to be updated with project documentation.*
 
 *From the template:*
